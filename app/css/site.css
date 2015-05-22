@@ -5,6 +5,13 @@ body {
   padding: 0;
 }
 
+.header {
+  padding: 1rem;
+
+}
+
+
+
 #content {
   width: 90%;
   max-width: 800px;

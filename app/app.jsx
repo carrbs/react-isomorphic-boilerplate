@@ -6,9 +6,7 @@ var App = React.createClass({
     render: function() {
         return (
             <div id="content">
-                <section id="title">
-                    <h1>Application</h1>
-                </section>
+                <Header />
                 <nav>
                     <ul>
                         <li><Link to="index">Welcome</Link></li>
@@ -23,6 +21,16 @@ var App = React.createClass({
         );
     }
 });
+
+var Header = React.createClass({
+    render: function() {
+        return <div className="header">
+            <section id="title">
+                <h1>I'll get better at this</h1>
+            </section>
+        </div>
+    }
+  });
 
 
 export default App;
